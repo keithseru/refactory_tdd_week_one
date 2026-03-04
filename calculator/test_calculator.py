@@ -10,3 +10,8 @@ def test_add():
 def test_subtract():
     result = subtract(2,3)
     assert result == -1
+    
+# Test the multiplication function
+def test_multiply():
+    result = multiply(2,3)
+    assert result == 6
