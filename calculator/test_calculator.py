@@ -5,3 +5,8 @@ from calculator import add, subtract, divide, multiply
 def test_add():
     result = add(2,3)
     assert result == 5
+
+# Test 2: Testing the subtraction function
+def test_subtract():
+    result = subtract(2,3)
+    assert result == -1
