@@ -15,3 +15,8 @@ def test_subtract():
 def test_multiply():
     result = multiply(2,3)
     assert result == 6
+
+# Test the division function
+def test_divide():
+    result = divide(4,2)
+    assert result == 2
